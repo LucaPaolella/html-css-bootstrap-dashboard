@@ -35,6 +35,6 @@ aside .profile {
 
 #main-top{
     background-color: blue;
-    height: 120px;
+    min-height: 120px;
     min-width: calc(100vw - 150px);
 }
