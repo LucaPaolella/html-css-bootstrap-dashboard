@@ -1,4 +1,27 @@
+/*common*/
+main{
+    overflow: hidden;
+}
+
+/*header*/
 .container-nav{
     height: 70px; /*da levare dopo che la struttura è completa*/
     background-color: aqua;/*da levare dopo che la struttura è completa*/
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*aside*/
+
+aside {
+    width: 150px;
+    background-color:chocolate;
+    min-height: calc(100vh - 70px);
+}
+
+
+aside .profile {
+    margin-top: auto;
 }
