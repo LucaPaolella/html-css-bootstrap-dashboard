@@ -3,6 +3,12 @@ main{
     overflow: hidden;
 }
 
+.container-fluid{
+    margin:0px;
+    padding:0px;
+    width: auto;
+}
+
 /*header*/
 .container-nav{
     height: 70px; /*da levare dopo che la struttura è completa*/
@@ -30,5 +36,5 @@ aside .profile {
 #main-top{
     background-color: blue;
     height: 120px;
-    min-width: calc(100% - 150px);
+    min-width: calc(100vw - 150px);
 }
