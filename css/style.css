@@ -14,7 +14,6 @@ ul{
 }
 
 /*aside*/
-
 aside {
     width: 150px;
     background-color:chocolate;
@@ -24,4 +23,12 @@ aside {
 
 aside .profile {
     margin-top: auto;
+}
+
+/*main-top*/
+
+#main-top{
+    background-color: blue;
+    height: 120px;
+    width: calc(100% - 150px);
 }
