@@ -4,28 +4,45 @@ main{
     margin-top: 70px;
 }
 
+body{
+    overflow: hidden;
+}
+
 .container-fluid{
     margin:0px;
     padding:0px;
     width: auto;
 }
 
-/*header*/
-.container-nav{
-    height: 70px; /*da levare dopo che la struttura è completa*/
-    background-color: aqua;/*da levare dopo che la struttura è completa*/
-}
-
 ul{
     list-style-type: none;
 }
+
+/*header*/
+.container-nav{
+    height: 70px; /*da levare dopo che la struttura è completa*/
+}
+
+.logo-mobile{
+    width: 50px;
+}
+
+.logo-header{
+    padding-left: 15px;
+}
+
+.fa-bell{
+    color: orange;
+}
+
+
 
 /*aside*/
 aside {
     width: 150px;
     background-color:chocolate;
     min-height: calc(100vh - 70px);
-    
+
 }
 
 
@@ -45,9 +62,9 @@ aside .profile {
 
 #body-main{
     width: 100%;
-    min-height: calc(100% - 190px);
 }
 
 .real-main-container{
     overflow: auto;
+    height: 100vh;
 }
