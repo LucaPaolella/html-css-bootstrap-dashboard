@@ -54,9 +54,11 @@ aside .profile {
 
 #main-top{
     background-color: blue;
-    min-height: 120px;
-    min-width: calc(100vw - 150px);
+    height: 265px;
+    min-width: calc(100vw - 50px);
+    color: white;
 }
+
 
 /*body-main*/
 
@@ -69,9 +71,24 @@ aside .profile {
     height: 100vh;
 }
 
+/*media*/
+@media only screen and (min-width: 720px) {
+    #main-top {
+        height: 120px;
+        min-width: calc(100vw - 150px);
+    }
+
+    .main-top-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     aside {
       width: 150px;
     }
- 
 }
+
+
