@@ -38,3 +38,9 @@ aside .profile {
     min-height: 120px;
     min-width: calc(100vw - 150px);
 }
+
+/*body-main*/
+
+#next-classes{
+    background-color: red;
+}
