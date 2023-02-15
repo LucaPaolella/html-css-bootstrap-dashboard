@@ -71,6 +71,24 @@ aside .profile {
     height: 100vh;
 }
 
+.card-title>h4{
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+
+.container-cards>.row{
+    --bs-gutter-x: 0px;
+}
+
+td>i{
+    border: 1px solid grey;
+}
+
+.tr:last-child{
+    margin-left: -60px;
+}
+
+
 /*media*/
 @media only screen and (min-width: 720px) {
     #main-top {
@@ -85,7 +103,7 @@ aside .profile {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
     aside {
       width: 150px;
     }

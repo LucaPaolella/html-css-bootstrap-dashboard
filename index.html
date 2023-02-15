@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!--Inizio Header-->
     <header>
@@ -20,7 +23,8 @@
 
             <div class="col">
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Terracotta è una bella parola" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Terracotta è una bella parola"
+                        aria-label="Search">
                 </form>
             </div>
 
@@ -31,7 +35,7 @@
                 <i class="fa-solid fa-bell m-2 me-4"></i>
             </div>
         </div>
-    </header>    
+    </header>
     <!--Fine Header-->
 
     <!--Inizio Main-->
@@ -43,15 +47,15 @@
                         <ul class="flex container ">
                             <li class=" mb-3 mt-3">
                                 <i class="fa-solid fa-house fs-4 "></i>
-                                <span class="d-none d-xxl-inline fs-4">Home</span>
+                                <span class="d-none d-xl-inline fs-4">Home</span>
                             </li>
                             <li class=" mb-3">
                                 <i class="fa-solid fa-house fs-4"></i>
-                                <span class="d-none d-xxl-inline fs-4">Home</span>
+                                <span class="d-none d-xl-inline fs-4">Home</span>
                             </li>
                             <li class=" mb-3">
                                 <i class="fa-solid fa-house fs-4"></i>
-                                <span class="d-none d-xxl-inline fs-4">Home</span>
+                                <span class="d-none d-xl-inline fs-4">Home</span>
                             </li>
                         </ul>
                     </nav>
@@ -63,7 +67,7 @@
                 </aside>
             </section>
         </div>
-        
+
         <div class="real-main-container container-fluid">
             <section id="main-top">
                 <div class="main-top-container flex-xxl-row-reverse">
@@ -72,14 +76,18 @@
                     </div>
 
                     <div class="m-3 order-xxl-1">
-                        <h4>Boolean</h4> <button type="button" class="btn btn-primary btn-sm rounded-pill">Piano Blaze</button>
+                        <h4>Boolean</h4> <button type="button" class="btn btn-primary btn-sm rounded-pill">Piano
+                            Blaze</button>
                         <div class="mt-1">
                             <button type="button" class="btn btn-primary btn-sm rounded-pill ">3 app</button>
                             >>
                             <button type="button" class="d-md-none btn btn-primary btn-sm rounded-pill ">+</button>
-                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano Blaze</button>
-                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano Blaze</button>
-                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano Blaze</button>
+                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano
+                                Blaze</button>
+                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano
+                                Blaze</button>
+                            <button type="button" class="d-none d-md-inline btn btn-primary btn-sm rounded-pill ">Piano
+                                Blaze</button>
                         </div>
                     </div>
 
@@ -89,58 +97,141 @@
                     </div>
                 </div>
             </section>
-    
+
             <section id="body-main">
 
-                <div class="container-cards container-fluid d-flex flex-wrap">
+                <div class="container-cards container-fluid d-flex flex-wrap ms-5">
                     <div class="row">
-                        <div id="class" class="card col-12 col-xxl-7 m-2" >
+                        <div id="class" class="card col-12 col-xxl-7 m-3">
+
+                            <div>
+                                <div class="card-title">
+                                    <h4 class="card-title">Prossime classi</h4>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr class="">
+                                                <th class="col-xxl-6" scope="col">Nome</th>
+                                                <th class="ps-2 col" scope="col">Data inizio</th>
+                                                <th class="ps-2 col" scope="col">Roi</th>
+                                                <th class="ps-2 col" scope="col">Stato</th>
+                                                <th class="ps-2 col"scope="col"><span class="ms-5">Azioni</span></th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+
+                                            <tr class="">
+                                                <td class="pt-4 ps-3">15 feb 2021</td>
+                                                <td class="pt-4 ps-3">Classe 75</td>
+                                                <td class="pt-4 ps-3">20%</td>
+                                                <td class="pt-4 ps-3" colspan="2"><button class="btn btn-primary btn-sm rounded-pill ">Done</button></td>
+                                                <td class="pt-4 ps-3"><i class="fa-solid fa-pen m-1 p-1"></i><i class="fa-solid fa-trash p-1 m-1"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="faq" class="card col-12 col-xxl-7 m-3 order-xxl-1 ">
                             <div class="card-body">
-                              <h5 class="card-title">Prossime classi</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                                <h5 class="card-title">F.A.Q</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
-        
-                        <div id="faq" class="card col-12 col-xxl-7 m-2 order-xxl-1 ">
+
+                        <div id="todo" class="card col col-12 col-xxl-4 m-3 ">
                             <div class="card-body">
-                              <h5 class="card-title">F.A.Q</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                                <h5 class="card-title">Todo</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
-        
-                        <div id="todo" class="card col col-12 col-xxl-4 m-2 " >
+
+                        <div id="active" class="card col col-12 col-xxl-4 m-3 order-xxl-1">
                             <div class="card-body">
-                              <h5 class="card-title">Todo</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-        
-                        <div id="active" class="card col col-12 col-xxl-4 m-2 order-xxl-1">
-                            <div class="card-body">
-                              <h5 class="card-title">Utenti attivi</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                                <h5 class="card-title">Utenti attivi</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-    
+
             </section>
         </div>
-        
+
     </main>
     <!--Fine Main-->
 
 </body>
+
 </html>
