@@ -39,7 +39,7 @@ ul{
 
 /*aside*/
 aside {
-    width: 150px;
+    width: 50px;
     background-color:chocolate;
     min-height: calc(100vh - 70px);
 
@@ -67,4 +67,11 @@ aside .profile {
 .real-main-container{
     overflow: auto;
     height: 100vh;
+}
+
+@media only screen and (min-width: 1200px) {
+    aside {
+      width: 150px;
+    }
+ 
 }
