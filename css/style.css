@@ -72,6 +72,10 @@ aside .profile {
     height: 100vh;
 }
 
+/*.card{
+    min-height: auto; 
+}*/
+
 .card-title>h4{
     border-bottom: 1px solid grey;
     padding: 15px;
@@ -95,10 +99,17 @@ td>i{
     background-color: white;
 }
 
-.todo-item{
+.todo-item, .user-container{
     border: 1px solid grey;
 }
 
+.user-container>img{
+    max-width: 500px;   
+}
+
+.info-x-months>p{
+    border-bottom: 1px solid grey;
+}
 
 /*#todo{
     min-height: auto;
