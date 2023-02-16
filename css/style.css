@@ -75,6 +75,7 @@ aside .profile {
 .card-title>h4{
     border-bottom: 1px solid grey;
     padding: 15px;
+    background-color: lightgrey;
 }
 
 .container-cards>.row{
@@ -93,6 +94,15 @@ td>i{
     border: none;
     background-color: white;
 }
+
+.todo-item{
+    border: 1px solid grey;
+}
+
+
+/*#todo{
+    min-height: auto;
+}*/
 
 /*.tr:last-child{
     margin-left: -60px;
